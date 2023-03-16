@@ -1,0 +1,25 @@
+.btn {
+  width: 163px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: #005580;
+	color: white;
+	font: bold 13.5px arial, sans-serif;
+}
+
+.btn1, .btn2 {
+  background: #005580;
+	color: white;
+  border: 1px solid black;
+	height: 45px;
+	border-radius: 10px;
+	width: 75px;
+	font: bold 13.5px arial, sans-serif;
+}
+
+.btn:hover , .btn1:hover , .btn2:hover {
+	cursor: pointer;
+	background-color: #0077b3;
+	transition: background-color 0.4s ease-in-out;
+}
